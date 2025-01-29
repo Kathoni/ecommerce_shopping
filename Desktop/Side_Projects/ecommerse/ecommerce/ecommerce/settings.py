@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'beauty'
+    'beauty',
 ]
 
 MIDDLEWARE = [
@@ -51,6 +51,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'ecommerce.urls'
+
+import os
 
 TEMPLATES = [
     {
