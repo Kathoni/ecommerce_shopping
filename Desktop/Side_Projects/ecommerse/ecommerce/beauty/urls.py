@@ -20,6 +20,9 @@ from beauty import views
 urlpatterns = [
     path('index/', views.index, name='index'),  # Handles '/beauty/index/'
     path('about/', views.about, name='about'),
+    path('dry/', views.about, name='dry'),
+    path('oily/', views.about, name='oily'),
+    path('combination/', views.about, name='combination'),
 ]
 
 
