@@ -23,6 +23,8 @@ urlpatterns = [
     path('dry/', views.about, name='dry'),
     path('oily/', views.about, name='oily'),
     path('combination/', views.about, name='combination'),
+    path('normal/', views.about, name='normal'),
+    path('daraja/stk_push', views.stk_push_callback, name='stk_push_callback'),
 ]
 
 

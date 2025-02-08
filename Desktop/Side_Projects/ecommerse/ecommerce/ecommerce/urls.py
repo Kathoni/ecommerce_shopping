@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('beauty/', include('beauty.urls')),
     
+    
 
 ]
